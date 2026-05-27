@@ -1,6 +1,6 @@
 #!/bin/sh
 CÀI TRỰC TIẾP TỪ GITHUB
-cd /tmp/ && yum install git -y && git clone https://github.com/income88/OpenVPN && cd OpenVPN/ && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh
+cd /tmp/ && yum install git -y && git clone https://github.com/ngovanquang12c3/OpenVPN && cd OpenVPN/ && sed -i -e 's/\r$//' centos7.sh && chmod 755 centos7.sh && ./centos7.sh
 
 LỆNH CÀI THỦ CÔNG HOẶC QUA FILE SH
 sed -i.bak 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
